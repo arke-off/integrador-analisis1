@@ -15,7 +15,7 @@ Este programa permite calcular el límite de una función ingresada por el usuar
 ✅ Interfaz en consola clara y fácil de usar.
 ✅ Posibilidad de repetir cálculos sin reiniciar el programa.
 ---
-\!\[ejemplos](QR.jpg)
+![ejemplos](QR.jpg)
 
 ---
 
