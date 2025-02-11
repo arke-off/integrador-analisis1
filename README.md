@@ -21,23 +21,56 @@ Este programa permite calcular el límite de una función ingresada por el usuar
 
 ---
 
-## 📦 Instalación
+## 🖥 Instalación (parte I) Python y Uso de la Consola
+
+Para ejecutar este programa, primero necesitas instalar Python y asegurarte de que puedes utilizar la consola. Sigue estos pasos:
+
+1. **Descargar e instalar Python**
+   - Visita la página oficial de Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+   - Descarga la versión más reciente para tu sistema operativo.
+   - Durante la instalación, asegúrate de marcar la opción **"Add Python to PATH"**.
+   
+2. **Verificar la instalación**
+   - Abre una terminal (CMD en Windows, Terminal en macOS/Linux). Para esto puedes presionar la tecla WIN -> escribir cmd en la barra de búsqueda -> luego presionar enter.
+   - Escribe el siguiente comando y presiona Enter:
+     ```bash
+     python --version
+     ```
+   - Si ves un mensaje con la versión de Python instalada, ¡todo está listo!
+
+3. **Usar la consola**
+   - Para abrir la consola interactiva de Python, simplemente ejecuta:
+     ```bash
+     python
+     ```
+   - Verás que aparece `>>>`, indicando que puedes escribir comandos de Python directamente.
+   - Para salir, usa `exit()` o presiona `Ctrl + Z` en Windows o `Ctrl + D` en macOS/Linux.
+
+---
+
+## 📦 Instalación (parte II) Calcular límites
 
 Para ejecutar este programa en su sistema, siga estos pasos:
 
-1. **Clonar este repositorio**
+0. **Dirigete a cualquier carpeta donde vas a posicionar el programa y presiona click derecho -> abrir terminal**
+
+1. **Instala asistente de GitHub para acceder al repositorio del programa de Límites**
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   pip install dulwich
    ```
 
-2. **Instalar las dependencias**
+2. **Clonar este repositorio**
+   ```bash
+   python -m dulwich clone https://github.com/arke-off/integrador-analisis1.git
+   ```
+
+3. **Instalar las dependencias**
    Este programa requiere `SymPy`, una librería de álgebra simbólica para Python. Si aún no la tiene instalada, puede hacerlo con:
    ```bash
    pip install sympy
    ```
 
-3. **Ejecutar el programa**
+4. **Ejecutar el programa**
    ```bash
    python calculadora_limites.py
    ```
