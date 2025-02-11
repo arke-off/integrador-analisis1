@@ -6,7 +6,7 @@ x = sp.symbols('x') #letra de la incognita
 while True :
     os.system('cls') #limpiamos pantalla
 
-    a = input("ingrese el valor de ""a"" hacia donde tiene su limite aqui:")
+    a = input("ingrese el valor de ""a"" hacia donde tiende su limite aqui:")
 
     print("ejemplos de formato para ingresar una funcion racional \n (x**2 + 5*x + 4) / (x**3 - 2*x + 7)\n")
     funcion_usuario = input ("ingrese aqui:")

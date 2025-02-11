@@ -22,7 +22,7 @@ while True :
 
             os.system('cls')
 
-            a = input("ingrese el valor de ""a"" hacia donde tiene su limite aqui:")
+            a = input("ingrese el valor de ""a"" hacia donde tiende su limite aqui:")
 
             print("ejemplos de formato para ingresar una funcion racional \n (x**2 + 5*x + 4) / (x**3 - 2*x + 7)\n")
             funcion_usuario = input ("ingrese su función aqui:")
@@ -46,6 +46,15 @@ while True :
         print("\nEjemplo de formato para ingresar una función:")
         print("\nf(x) = (2*x**2 + 3*x + 1) / (x**3 + 5)")
         print("\nComo puede observar...\nEl producto debe estar explícito\n")
+        print("Si su valor tiende a infinito, coloque : oo\n")
         print("Resultado esperado:\nSi x → ∞, el límite es 0.")
         print("\n" + "="*40)
         input("\nPresione ENTER para continuar...")
+
+    elif opcion == '3':  # Opción para salir
+        os.system('cls')
+        print("\n" + "="*40)
+        print("\nSaliendo del programa... ¡Hasta luego!")
+        print("\n" + "="*40)
+        input("\nPresione ENTER para continuar...")
+        break  # Termina el bucle
